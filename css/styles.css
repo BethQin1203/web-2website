@@ -5,8 +5,9 @@ body {
 .header {
   background: url(../images/Web2\ pic/hero.png) center center no-repeat;
   background-size: cover;}
+  
   .DESTINATIONbg{
-    background: url(../images/Web2\ pic/DESTINATION.png);
+    background-image: url(../images/Web2\ pic/DESTINATION.png);
   }
 nav{
   background-color: rgba(white 0.2);
@@ -29,6 +30,10 @@ nav{
 .step-img {
   max-width: 100%;
   border-radius: 10px;
+}
+.end-plan{
+  background-image: url(../images/Web2\ pic/footer.png);
+  
 }
 
 .footer {
