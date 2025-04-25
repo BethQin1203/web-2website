@@ -1,5 +1,9 @@
+@import"../node_modules/bootstrap/css/bootstrap";
 $primary: #333;
 
 body{
     background-color: $primary;
+}
+h2{
+    font-family: Merriweather;
 }

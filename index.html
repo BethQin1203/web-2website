@@ -13,7 +13,8 @@
   <body>
     <header>
       <!-- Navigation -->
-     <nav class="navbar navbar-expand-lg fixed-top d-flex">
+      <div class="header"> 
+     <nav class="navbar navbar-expand-lg fixed-top sticky-top">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
           <span class="navbar-toggler-icon"></span>
@@ -26,7 +27,7 @@
           </li>
           <div class="d-flex nav-item ms-auto">
             <li><a href="menu/index.html" class="nav-link fw-semibold">Destinations</a></li>
-            <li><a href="howcanwehelpyou" class="nav-link fw-semibold"></a>">Our Team</a></li>
+            <li><a href="howcanwehelpyou" class="nav-link fw-semibold">">Our Team</a></li>
             <li><a href="planyourtrip" class="nav-link btn btn-outline-light fw-semibold">Plan Your Trip</a></li>
           </div>
         </ul>
@@ -44,7 +45,7 @@
                 </p>
     </header>
     <main>
-      <section class="Service">
+      <section class="Service text-center d-flex">
           <h2>How Can We Help You</h2>
           <ul>
             <li>
@@ -66,91 +67,89 @@
       </section>
             <section class="DESTINATION">
               <div class="DESTINATIONbg">
-              <h4>Book Your Next Adventure</h4>
+              <h4 class="text-center">Book Your Next Adventure</h4>
               </div>
-              <p>Book your next adventure with ease and confidence, and let us take care 
+              <p class="mb-5">Book your next adventure with ease and confidence, and let us take care 
                 of the details  while you focus on making  memories</p>
             </li>
-            <li>
-              <img src="images/Web2 pic/Denmark.png" alt="Denmark" />
-              <img src="images/Web2 pic/location.png" alt=" location" />
-              <img src="images/Web2 pic/button.png" alt=" arrow" />
-              <h5>Denmark</h5>
-              <h6>Day 1</p6>
-            </li>
-            <li>
-                <img src="images/Denmark" alt="Greece" />
-                <img src="images/Denmark" alt=" location" />
-                <img src="images/Denmark" alt=" arrow" />
-                <h5>Greece</h5>
-                <h6>Day 2</p6>
-              </li>
-              <li>
-                <img src="images/Denmark" alt="New Zealand" />
-                <img src="images/Denmark" alt=" location" />
-                <img src="images/Denmark" alt=" arrow" />
-                <h5>New Zealand</h5>
-                <h6>Day 3</p6>
-              </li>
-              <li>
-                <img src="images/Denmark" alt="Sweden" />
-                <img src="images/Denmark" alt=" location" />
-                <img src="images/Denmark" alt=" arrow" />
-                <h5>Sweden</h5>
-                <h6>Day 4</p6>
-              </li>
+            <!--Card 1 -->
+            <div class="col-md-3 row d-flex">
+              <div class="card destination-card">
+              <img src="images/Web2 pic/Denmark.png" class="card-img-top" alt="Denmark" />
+              <div class="card-body text-start"></div>
+              <h5 class="card-title">Denmark</h5>
+              <h6><span class="images/Web2 pic/location.png"></span> Day 1</h6>
+              <div class="text-end">
+                <a href="images/Web2 pic/button.png" class="btn btn-outline-secondary">&rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 row d-flex">
+      <div class="card destination-card">
+      <img src="images/Web2 pic/GReeceday2.png" class="card-img-top" alt="Greece" />
+      <div class="card-body text-start"></div>
+      <h5 class="card-title">Greece</h5>
+      <h6><span class="images/Web2 pic/location.png"></span> Day 2</h6>
+      <div class="text-end">
+        <a href="images/Web2 pic/button.png" class="btn btn-outline-secondary">&rarr;</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="col-md-3 row d-flex">
+  <div class="card destination-card">
+  <img src="images/Web2 pic/New Zealand.png" class="card-img-top" alt="New Zealand" />
+  <div class="card-body text-start"></div>
+  <h5 class="card-title">New Zealand</h5>
+  <h6><span class="images/Web2 pic/location.png"></span> Day 3</h6>
+  <div class="text-end">
+    <a href="images/Web2 pic/button.png" class="btn btn-outline-secondary">&rarr;</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3 row d-flex">
+  <div class="card destination-card">
+  <img src="images/Web2 pic/sweden.png" class="card-img-top" alt="Sweden" />
+  <div class="card-body text-start"></div>
+  <h5 class="card-title">Sweden</h5>
+  <h6><span class="images/Web2 pic/location.png"></span> Day 3</h6>
+  <div class="text-end">
+    <a href="images/Web2 pic/button.png" class="btn btn-outline-secondary">&rarr;</a>
+</div>
+</div>
+</div>
+</div>
+      </section>
+      <!-- How it Works Section -->
+      <section>
+        <div class="Howitwork my-5">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+        <h7>How it Works</h7>
+        <h4> Research & Planning <span class="float-end">01</span></h4>
+        <h4> Booking Conformation <span class="float-end">02</span></h4>
+        <h4> Trip Preparation<span class="float-end">03</span></h4>
+        </div>
+        <div class="col-md-6 d-flex">
+          <img src="images/Web2 pic/How it works.png" alt="Mountain" class="step-img">
+      </div> 
+      </div>
         </div>
       </section>
-      <section>
-        <section class="Howitwork">
-          <div class="Howitwork-container">
-          <div class="Howitwork-left">
-        <h7>How it Works</h7>
-        <h4> Research & Planning      01 </h4>
-        <h4> Booking Conformation     02</h4>
-        <h4> Trip Preparation     03 </h4>
+      <div class="end-plan">
+        <img src="images/Web2 pic/footer.png"  alt= "end-background"/>
+        <h9 class="text-uppercase">EXPLORE THE WONDERFUL OF </h9>
+        <h10 class="fw-bold">POVEDA</h10>
+        <a href="#" class="btn btn-outline-light mt-3">Plan Your Trip</a>
       </div>
-      <div class="Howitwork-right">
-        <img src="images/howitworks"  alt= "picture river"/>
-      </div>
-          </div>
-      </section>
-      <section class="Greece">
-        <img src="images/howitworks"  alt= "Greece"/>
-        <img src="images/howitworks"  alt= "Greece"/>
-        <img src="images/howitworks"  alt= "Greece"/>
-        <img src="images/howitworks"  alt= "Greece"/>
-      </section>
-      <section class="DESTINATION">
-        <h1>TESTIMONIAL</h1>
-        <h4>What They Saying About Us</h4>
-        <p>Book your next adventure with ease and confidence, and let us take care 
-            of the details  while you focus on making  memories</p>
-      </section>
-      <section class="What they saying about us">
-        <h10>What they saying about us</h10>
-        <h5>Craig McKay</h5>
-        <p>“Booking through this site made our dream vacation a reality! Everything from the flights to the local tours was seamless and stress-free. We especially loved the personalized recommendations and hidden gems we wouldn’t have found on our own. This site truly takes the hassle out of travel planning—we can't wait to book our next adventure!”
-        </p>
-      </section>
-      <section class="end-plan">
-        <img src="images/howitworks"  alt= "end-background"/>
-        <h9>EXPLORE THE WONDERFUL OF </h9>
-        <h10>POVEDA</h10>
-        <li><a href="contact.html" class="btn-nav">Plan Your Trip</a></li>
-      </section>
-      </section>
+    </div>
     </main>
-    <footer>
-      <h8>
-        Privacy and Terms
-      </h8>
-      <h8>
-        @2025 POVEDA
-      </h8>
-      <h8>
-        Website Accessibility
-      </h8>
-    </footer>
-  </body>
+    <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 POVEDA | <a href="#">Privacy and Terms</a> | <a href="#">Website Accessibility</a></p>
+  </div>
+
+</body>
 </html>
