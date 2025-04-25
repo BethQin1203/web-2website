@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 body {
   background-color: #333;
+}
+.header {
+  background: url(../images/Web2\ pic/hero.png) center center no-repeat;
+  background-size: cover;}
+  .DESTINATIONbg{
+    background: url(../images/Web2\ pic/DESTINATION.png);
+  }
+nav{
+  background-color: rgba(white 0.2);
+}
+.btn{
+  padding:13px 26px 13px 26px;
 }
