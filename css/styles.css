@@ -2,19 +2,44 @@
 ul{
   list-style: none;
 }
-body {
-}
+
 .header {
   background: url(../images/Web2\ pic/hero.png) center center no-repeat;
   background-size: cover;
   height:800px;
+  width: 1512px;
+}
+
+.hero{
+  height: 1008px;
+  width: 1512px;
+}
+.hero-text {
+  font-size: 7rem;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+margin-top: 12.7rem;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
   .DESTINATIONbg{
     background-image: url(../images/Web2\ pic/DESTINATION.png);
+    height:117px;
+    width: 1512px;
+  }
+  .DESTINATIONbg h4{
+    padding-top: 5%;
   }
 nav{
-  background-color: rgba(white 0.2);
+  background-color:#507881;
+  height: 149px;
+    list-style-type: none;
+    width: 1512px;
+}
+.navbar-nav{
+  color:white;
 }
 .btn{
   padding:13px 26px 13px 26px;
@@ -37,7 +62,18 @@ nav{
 }
 .end-plan{
   background-image: url(../images/Web2\ pic/footer.png);
+  height: 691px;
+  width: 1512px;
   
+}
+.end-plan p{
+  margin-top: 27.5rem;
+  margin-bottom: 19rem;
+  width: 631px;
+  height: 226px;
+  margin-left: 44.1rem;
+  margin-right: 44.1rem;
+  text-align: center;
 }
 
 .footer {
