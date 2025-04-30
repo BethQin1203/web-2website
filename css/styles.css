@@ -7,12 +7,11 @@ ul{
   background: url(../images/Web2\ pic/hero.png) center center no-repeat;
   background-size: cover;
   height:800px;
-  width: 1512px;
 }
 
 .hero{
   height: 1008px;
-  width: 1512px;
+  width: 100%;
 }
 .hero-text {
   font-size: 7rem;
@@ -23,6 +22,10 @@ margin-top: 12.7rem;
   transform: translateX(-50%);
   z-index: 1;
 }
+.hero-section .container{
+padding-left:10%;
+}
+
 
   .DESTINATIONbg{
     background-image: url(../images/Web2\ pic/DESTINATION.png);
@@ -36,8 +39,14 @@ nav{
   background-color:#507881;
   height: 149px;
     list-style-type: none;
-    width: 1512px;
+    width: 100%;
+    
 }
+
+.navbar .container-fluid{
+  padding-left:10%;
+}
+
 .navbar-nav{
   color:white;
 }
@@ -63,22 +72,22 @@ nav{
 .end-plan{
   background-image: url(../images/Web2\ pic/footer.png);
   height: 691px;
-  width: 1512px;
+  width: 100%;
   
 }
 .end-plan p{
-  margin-top: 27.5rem;
-  margin-bottom: 19rem;
-  width: 631px;
-  height: 226px;
-  margin-left: 44.1rem;
-  margin-right: 44.1rem;
+
   text-align: center;
 }
+
 
 .footer {
   font-size: 0.9rem;
   padding: 1rem;
   background-color: #f8f9fa;
   text-align: center;
+}
+.html{
+  font-size: 10px;
+  font-family: Merriweather,serif;
 }
