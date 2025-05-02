@@ -18,20 +18,28 @@ ul{
 }
 
 .header .container{
-  margin-top: 10px;
+  margin-top: 150px;
+  width: 926px;
 }
 .header h3{
   font-family: "Merriweather", serif;
-  font-size: 3rem;
-}
+  font-size: 2rem;
+  width: 268px;
+} 
 .header h1{
   font-family: "Merriweather", serif;
-  font-size: 5.5rem;
-  
+  font-size: 6rem;
+  width: 926px;
 }
-
+.header .container p{
+  font-family: "Merriweather", serif;
+  font-size: 1.56rem;
+  width: 603px;
+  height: 120px;
+}
 .hero-section .container{
-padding-left:10%;
+padding-left:11%;
+width: 100%;
 }
 
 
@@ -77,12 +85,14 @@ nav{
   font-size: 1.5rem;
   font-weight: 500;
   color: #2f4f4f;
+  font-family: "Merriweather", serif;
 }
 
 .destination-container p {
   font-size: 1rem;
   color: #555;
 }
+
 
 .card {
   border: none;
@@ -148,27 +158,35 @@ nav{
    background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-
   height: 691px;
   width: 100%;
   
 }
 
-  .end-plan .container{
-    padding-top: 200px;
-    }
-
-    .end-plan p{
-      font-size: 3.6rem;
-        text-align: center;
-          font-family: "Merriweather", serif;
-      }
-
+.end-plan .container {
+  position: relative;
+  z-index: 2;
+}
+.end-plan .container{
+  padding-top: 200px;
+  }
+  
+  .end-plan h2{
+  font-size: 3.6rem;
+    text-align: center;
+      font-family: "Merriweather", serif;
+  
+  }
+  
+  .end-plan h2 strong{
+  font-size: 5rem;
+  }
+  
 .footer {
   font-size: 0.9rem;
   padding: 1rem;
   background-color: #f8f9fa;
-  text-align:left;
+  text-align:center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,6 +220,14 @@ nav{
 
 .destination-container p{
   margin-top: 100px;
+}
+.col-md-4 h5{
+  width: 302px;
+  height: 105px;
+}
+  .col-md-4 p{
+    width: 302px;
+    height: 105px;
 }
 .Howitwork {
   padding: 60px 20px;
@@ -243,8 +269,42 @@ nav{
 
 
 
-@media screen and (max-width: 1451px){
-  .card{
-    width: 431px;
+@media (max-width: 1512px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    height: 80vh;
+    padding: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
