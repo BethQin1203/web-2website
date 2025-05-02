@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 ul{
   list-style: none;
 }
 
 .header {
-  background: url(../images/Web2\ pic/hero.png) center center no-repeat;
-  background-size: cover;
+  background: url(../images/Web2\ pic/hero.png) center center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   height:800px;
 }
 
@@ -13,18 +16,24 @@ ul{
   height: 1008px;
   width: 100%;
 }
-.hero-text {
-  font-size: 7rem;
-  font-weight: 900;
-  color: white;
-  position: absolute;
-margin-top: 12.7rem;
-  transform: translateX(-50%);
-  z-index: 1;
+
+.header .container{
+  margin-top: 10px;
 }
+.header h3{
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+}
+.header h1{
+  font-family: "Merriweather", serif;
+  font-size: 5.5rem;
+  
+}
+
 .hero-section .container{
 padding-left:10%;
 }
+
 
 
   .DESTINATIONbg{
@@ -34,10 +43,11 @@ padding-left:10%;
   }
   .DESTINATIONbg h4{
     padding-top: 5%;
+    font-family: "Merriweather", serif;
   }
 nav{
   background-color:#507881;
-  height: 149px;
+  height: 120px;
     list-style-type: none;
     width: 100%;
     
@@ -49,10 +59,74 @@ nav{
 
 .navbar-nav{
   color:white;
+  font-family: "Merriweather", serif;
+}
+.navbar nav-item-btn{
+  color:white;
 }
 .btn{
   padding:13px 26px 13px 26px;
+  font-family: "Merriweather", serif;
 }
+.destination-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.destination-container h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #2f4f4f;
+}
+
+.destination-container p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.card-text i {
+  margin-right: 6px;
+  color: #dc3545; /* Bootstrap danger red */
+}
+.card-img{
+  border-radius: 15px;
+}
+.btn-arrow {
+  width: 65px;
+  height: 64px;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color:white;
+  border-color:white;
+}
+
+.btn-arrow:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
 .destination-card {
   border-radius: 15px;
   overflow: hidden;
@@ -71,23 +145,106 @@ nav{
 }
 .end-plan{
   background-image: url(../images/Web2\ pic/footer.png);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
   height: 691px;
   width: 100%;
   
 }
-.end-plan p{
 
-  text-align: center;
-}
+  .end-plan .container{
+    padding-top: 200px;
+    }
 
+    .end-plan p{
+      font-size: 3.6rem;
+        text-align: center;
+          font-family: "Merriweather", serif;
+      }
 
 .footer {
   font-size: 0.9rem;
   padding: 1rem;
   background-color: #f8f9fa;
-  text-align: center;
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #000000;
+  font-family: "Merriweather",serif;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
 }
 .html{
-  font-size: 10px;
-  font-family: Merriweather,serif;
+  font-size:10px;
+    font-family: "Merriweather", serif;
+}
+
+.card{
+  border-radius: 25px;
+  border-width: 15px;
+  border-color:white;
+  width: 431px;
+}
+.card .btn{
+  margin-left: 175px;
+  margin-top: -100px;
+}
+
+
+.destination-container p{
+  margin-top: 100px;
+}
+.Howitwork {
+  padding: 60px 20px;
+  background-color: #fff;
+  font-family: "Merriweather", serif;
+}
+
+.Howitwork h5 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2f4f4f;
+  margin-bottom: 30px;
+}
+
+.Howitwork h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  color: #333;
+}
+
+.Howitwork h4 span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f4f4f;
+}
+
+
+
+.help-title {
+  color: #507881;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+  font-family: "Merriweather", serif;
+}
+
+
+
+
+@media screen and (max-width: 1451px){
+  .card{
+    width: 431px;
+  }
 }
